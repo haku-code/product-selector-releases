@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>ProductSelector</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Sun, 11 Oct 2026 12:56:08 +0900</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/haku-code/product-selector-releases/releases/download/macos-v1.0.1/ProductSelector-1.0.1-macOS-universal.zip" length="1349762" type="application/octet-stream" sparkle:edSignature="99XHcATWK5CaY3ZcD6v+ylgZWHArT4Xp5XC4/Qs8pyZbW1A4+RwlVFhoYkyeETXe8RVqorbwu24/otCouHS5BQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: xG88+oU+z86EeH7UcDK8WTF2zQ6apBm/F7E7WWwkZJF+kXFnATEgNGrLJAJUji4dIOQQXkisuqpu0EB7XQKdBA==
+length: 1112
+-->
