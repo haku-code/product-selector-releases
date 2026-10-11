@@ -1,18 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>ProductSelector</title>
+        <item>
+            <title>1.0.2</title>
+            <pubDate>Sun, 11 Oct 2026 13:04:35 +0900</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# 製品選定 Mac 1.0.2
+
+自動更新機能を追加しました。macOS 14以上、Apple Silicon／Intelに対応しています。
+
+- アプリメニューの「アップデートを確認…」から新バージョンを確認できます。
+- 設定画面で自動チェックと自動ダウンロードを切り替えられます。
+- 更新ファイルと更新情報をEdDSA署名で検証し、Developer ID署名とApple公証を適用しています。
+- 1.0.1からの初回移行はZIPをダウンロードして手動で入れ替えてください。以降はアプリ内で更新できます。
+- 保存済みデータはアプリ本体の外に保持されます。既存版を終了してからアプリケーションフォルダへ配置してください。
+
+初回起動では既存データがあればそのまま利用します。新規インストールの場合は自分の管理者アカウントを作成してください。
+]]></description>
+            <enclosure url="https://github.com/haku-code/product-selector-releases/releases/download/macos-v1.0.2/ProductSelector-1.0.2-macOS-universal.zip" length="2411446" type="application/octet-stream" sparkle:edSignature="qYaEc6wUacDC8iJ6J1t0a8J413/GoVUXZO7TwcGuN8rTNW8LJjaugvI+1XUV8w4N3ZlcPc2ilmn1g8GSfkuWDQ=="/>
+        </item>
         <item>
             <title>1.0.1</title>
             <pubDate>Sun, 11 Oct 2026 12:56:08 +0900</pubDate>
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/haku-code/product-selector-releases/releases/download/macos-v1.0.1/ProductSelector-1.0.1-macOS-universal.zip" length="1349762" type="application/octet-stream" sparkle:edSignature="99XHcATWK5CaY3ZcD6v+ylgZWHArT4Xp5XC4/Qs8pyZbW1A4+RwlVFhoYkyeETXe8RVqorbwu24/otCouHS5BQ=="></enclosure>
+            <enclosure url="https://github.com/haku-code/product-selector-releases/releases/download/macos-v1.0.1/ProductSelector-1.0.1-macOS-universal.zip" length="1349762" type="application/octet-stream" sparkle:edSignature="99XHcATWK5CaY3ZcD6v+ylgZWHArT4Xp5XC4/Qs8pyZbW1A4+RwlVFhoYkyeETXe8RVqorbwu24/otCouHS5BQ=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: xG88+oU+z86EeH7UcDK8WTF2zQ6apBm/F7E7WWwkZJF+kXFnATEgNGrLJAJUji4dIOQQXkisuqpu0EB7XQKdBA==
-length: 1112
+</rss>
+<!-- sparkle-signatures:
+edSignature: /+a/HAlXIGEkvCivjrLb6Uf4x2Ve53uHQDjUDYXuxgxp4BELUadB+vOlH+sjKxoo1HXxDCf8FhEd7aCiDwWpCA==
+length: 2783
 -->
