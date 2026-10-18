@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>ProductSelector</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Sun, 18 Oct 2026 11:50:57 +0900</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# 製品選定 Mac 1.0.4
+
+見積書PDFの表示と、発行前プレビューの動作を改善しました。
+
+- PDFに日本語フォント（IPAex Gothic）を同梱し、環境によらず同じ見た目で出力します。
+- 見積書のファイル名を整理しました。顧客名の禁止文字や空白を除去し、下書きは「見積書_下書き_日付_顧客名」になります。
+- 発行前のPDFプレビューを別スレッドで生成し、入力中の引っかかりを減らしました。プレビューの再描画でぼやけたりスクロール位置が戻ったりしません。
+- 見積編集画面のタブ切り替えをなめらかにしました。
+
+macOS 14以上、Apple Silicon／Intel対応。Developer ID署名・Apple公証済みの配布です。アプリメニューの「アップデートを確認…」で更新できます。
+]]></description>
+            <enclosure url="https://github.com/haku-code/product-selector-releases/releases/download/macos-v1.0.4/ProductSelector-1.0.4-macOS-universal.zip" length="6599999" type="application/octet-stream" sparkle:edSignature="v0G5eJGTYW/A6Ns5bN91tgv0io5y8MJtJupEL5oNFrMJ9kMysDm/vncCuGRC6pqUTjaBlKcO/DqnfjNbkesoCg=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Sun, 11 Oct 2026 14:07:18 +0900</pubDate>
             <sparkle:version>4</sparkle:version>
@@ -44,17 +63,9 @@ macOS 14以上、Apple Silicon／Intel対応。Developer ID署名・Apple公証�
 ]]></description>
             <enclosure url="https://github.com/haku-code/product-selector-releases/releases/download/macos-v1.0.2/ProductSelector-1.0.2-macOS-universal.zip" length="2411446" type="application/octet-stream" sparkle:edSignature="qYaEc6wUacDC8iJ6J1t0a8J413/GoVUXZO7TwcGuN8rTNW8LJjaugvI+1XUV8w4N3ZlcPc2ilmn1g8GSfkuWDQ=="/>
         </item>
-        <item>
-            <title>1.0.1</title>
-            <pubDate>Sun, 11 Oct 2026 12:56:08 +0900</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/haku-code/product-selector-releases/releases/download/macos-v1.0.1/ProductSelector-1.0.1-macOS-universal.zip" length="1349762" type="application/octet-stream" sparkle:edSignature="99XHcATWK5CaY3ZcD6v+ylgZWHArT4Xp5XC4/Qs8pyZbW1A4+RwlVFhoYkyeETXe8RVqorbwu24/otCouHS5BQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: l/WRwxlT2DxHMM+CYN+dJU8H/YgLvB9zll3zju4r+1x5l3jHpVcm6+PaV4w7KRbQETPPL+M7uYpgh/stLfHdAQ==
-length: 4276
+edSignature: KWhRbS7J23d+59MCRVXzM7xj7cS/cseSAD/TBtV75t1HY5rPsWedDAppXf8KFyRwBHhZng9IiYvP7dcMCot8Ag==
+length: 5234
 -->
