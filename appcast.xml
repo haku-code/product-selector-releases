@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>ProductSelector</title>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Sun, 18 Oct 2026 13:59:07 +0900</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# 製品選定 Mac 1.0.5
+
+販売らくだの商品台帳を読み込めるようになりました。
+
+- 製品管理の「販売らくだ」から、販売らくだのデータファイル（.HRKDATX）を選んで商品を読み込めます。型番・商品名・単位・価格・原価・メモを販売らくだの値に揃え、メーカーとカテゴリはこのアプリで設定した値を残します。
+- 販売らくだにしかない商品は、カテゴリ「未分類（販売らくだ）」に追加します。販売らくだから消えた商品は削除しません。
+- 「自動で読み込む」をオンにすると、データファイルが更新されたときに自動で読み込みます。WindowsのデータフォルダをOneDrive等でこのMacに同期して使います。
+- 販売らくだ側のデータは変更しません。初めて読み込む前に「使い方・更新」からバックアップを取ってください。
+- 読み込みには mdbtools が必要です。ターミナルで `brew install mdbtools` を実行してください。
+
+macOS 14以上、Apple Silicon／Intel対応。Developer ID署名・Apple公証済みの配布です。アプリメニューの「アップデートを確認…」で更新できます。
+]]></description>
+            <enclosure url="https://github.com/haku-code/product-selector-releases/releases/download/macos-v1.0.5/ProductSelector-1.0.5-macOS-universal.zip" length="6678875" type="application/octet-stream" sparkle:edSignature="vQlvugYoWWjNEcwU/ORn3OnBq7StUbHXmfUmllhUhUjZNA1qgmXrIZPlEcTLXAbSrqbMRmu32JA9cFl4P0y8CQ=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Sun, 18 Oct 2026 11:50:57 +0900</pubDate>
             <sparkle:version>5</sparkle:version>
@@ -43,29 +63,9 @@ macOS 14以上、Apple Silicon／Intel対応。Developer ID署名・Apple公証�
 ]]></description>
             <enclosure url="https://github.com/haku-code/product-selector-releases/releases/download/macos-v1.0.3/ProductSelector-1.0.3-macOS-universal.zip" length="2414526" type="application/octet-stream" sparkle:edSignature="8u4FdGVjnG3kJ43Ji/l/0uPqqgfZPofpNSd/TyU6MLVpYR/FQ0SS0BNwslV4jGujk8/hQlZ8+04vWQaDTZGCDQ=="/>
         </item>
-        <item>
-            <title>1.0.2</title>
-            <pubDate>Sun, 11 Oct 2026 13:04:35 +0900</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# 製品選定 Mac 1.0.2
-
-自動更新機能を追加しました。macOS 14以上、Apple Silicon／Intelに対応しています。
-
-- アプリメニューの「アップデートを確認…」から新バージョンを確認できます。
-- 設定画面で自動チェックと自動ダウンロードを切り替えられます。
-- 更新ファイルと更新情報をEdDSA署名で検証し、Developer ID署名とApple公証を適用しています。
-- 1.0.1からの初回移行はZIPをダウンロードして手動で入れ替えてください。以降はアプリ内で更新できます。
-- 保存済みデータはアプリ本体の外に保持されます。既存版を終了してからアプリケーションフォルダへ配置してください。
-
-初回起動では既存データがあればそのまま利用します。新規インストールの場合は自分の管理者アカウントを作成してください。
-]]></description>
-            <enclosure url="https://github.com/haku-code/product-selector-releases/releases/download/macos-v1.0.2/ProductSelector-1.0.2-macOS-universal.zip" length="2411446" type="application/octet-stream" sparkle:edSignature="qYaEc6wUacDC8iJ6J1t0a8J413/GoVUXZO7TwcGuN8rTNW8LJjaugvI+1XUV8w4N3ZlcPc2ilmn1g8GSfkuWDQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: KWhRbS7J23d+59MCRVXzM7xj7cS/cseSAD/TBtV75t1HY5rPsWedDAppXf8KFyRwBHhZng9IiYvP7dcMCot8Ag==
-length: 5234
+edSignature: W2ri7+ObQtxKrhB83xSdAN34y4iE3bQErpzwq8DEZjpF4Nrlnhq4G5qB0BQ7Sp4OKtuX/TtLjRObGiR26j0PAQ==
+length: 5561
 -->
